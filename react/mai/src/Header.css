@@ -1,0 +1,18 @@
+#kepes {
+  background-image: url("https://perfectdailygrind.com/wp-content/uploads/2019/02/coffee-bar-1.jpg");
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+#mosott {
+  background-color: rgba(0, 0, 255, 0.15);
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+#mosott h1 {
+  font-size: 2rem;
+}

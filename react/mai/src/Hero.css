@@ -1,0 +1,56 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    margin: auto;
+    position: relative;
+    top: -4em;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.left-side-container {
+    width: 50%;
+    align-items: left;
+}
+
+.left-side-container h3 {
+    font-size: 1rem;
+    color: rgba(0, 0, 255, 0.5);
+    margin-bottom: -25px;
+    font-weight: 600;
+}
+
+.left-side-container h1 {
+    margin-bottom: 55px;
+    font-size: 2.5rem;
+}
+
+.left-side-container .hero-button {
+    background: purple;
+    padding: 10px;
+    border-radius: 3em;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+}
+
+.phone {
+    width: 350px;
+    height: 250px;
+}
