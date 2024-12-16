@@ -1,0 +1,39 @@
+#fejlec {
+    /*  a teles kepernyo magassag fele 
+        vh / vw egy relativ mertekegyseg, ami a kepernyohoz viszonyit
+        100vh vagy 100 vw a teljes kepernyo lesz
+
+        em -> sormagasság pl. 5em -> 5 sor magas
+    */
+    height: 50vh;
+    width: 99.2vw;
+    background-image: url('public/pics/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+#fejlec h1 {
+    margin: auto;
+    color: #fff;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+}
+
+#head-halvany {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .3);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

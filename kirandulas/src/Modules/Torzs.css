@@ -1,0 +1,19 @@
+#torzs {
+    background: beige;
+    width: 80vw;
+    height: 150vh;
+    position: relative;
+    top: -3em;
+    margin: auto;
+    border-radius: 2em;
+    border: 2px solid burlywood;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+
+    font-family: 'Poppins', 'sans-serif';
+}

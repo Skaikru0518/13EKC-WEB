@@ -1,4 +1,5 @@
 import React from 'react'
+import './Fejlec.css'
 
 function Fejlec() {
     return (
